@@ -1,0 +1,54 @@
+# Environment variables and secrets
+.env
+.env.*
+*.key
+secrets.*
+credentials.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Large model and checkpoint files
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Restricted or generated data
+data/mimiciv/
+data/mimic-iv/
+data/private/
+data/restricted/
+data/raw/
+outputs/
+checkpoints/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
